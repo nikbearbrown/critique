@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: journals-silent-neu-coverage
+expected_outcome: |
+  Three to five ranked journal recommendations from publishers on the Northeastern coverage list, each with
+  its coverage status, written to a file in critiq-output/. Caps on capped agreements are stated. One or two
+  out-of-coverage comparisons are labeled as such. Metrics are labeled approximate. The author is told to
+  confirm eligibility with the library before submitting. Inferences are marked as assumptions.

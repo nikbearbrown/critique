@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: review-silent-flawed-manuscript
+expected_outcome: |
+  A full peer review of manuscript.md, written to a Markdown file in critiq-output/, with the nine headings
+  of the CRITIQ review format. It recommends Reject or Major Revision, ties each finding to a place in
+  the manuscript, catches the planted flaws, invents no citations, and asks no intake questions.
+context:
+  scaffold_script: place-files.sh
