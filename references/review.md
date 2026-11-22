@@ -63,6 +63,10 @@ The replication crisis trifecta: p-hacking, HARKing, selective reporting.
 - Error bars defined (SD vs. SEM)?
 - Individual data points shown for small samples?
 - Text, tables and figures consistent with one another?
+- Open each image or rendered figure if available; an image filename or a caption is not evidence that you inspected it. List any visuals you could not read.
+- For every central figure, identify the argument it supports, the units and denominators of each series, the comparison set, and how missing values and actual zeros are encoded. Check legibility, color-independent distinctions, caption, and in-text callout.
+- For dashboards or visualization papers, separate interface demonstrations from evidence of accuracy, usability, or impact. Check that screenshots are of the version and subset claimed. Flag contradictions between on-image wording and the manuscript; a prototype is not a validated instrument.
+- Apply statistical standards appropriate to the design. Do not demand p-values, generic power thresholds, or error bars whose sampling interpretation is not supported.
 
 State what the text shows, not what you suspect. "Fourteen outcomes are tested and no correction is reported" is a finding. "The authors p-hacked" is an accusation the text cannot support.
 
@@ -90,7 +94,7 @@ State what the text shows, not what you suspect. "Fourteen outcomes are tested a
 
 **Conflicts of interest.** Affiliations disclosed? Funding stated? Competing interests acknowledged?
 
-**Citations.** Self-citation under 20%? Diverse representation? Only supporting literature cited?
+**Citations.** Is self-citation relevant and proportionate? Check for missing contrary work, narrow source coverage, and unsupported citation standards. Do not treat a universal percentage cutoff as a rule.
 
 **Language.** Keep clarity critique apart from fluency bias: unclear reasoning is a finding, non-native phrasing is not. Are findings presented as universal when the sample is narrow?
 

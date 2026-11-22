@@ -1,8 +1,10 @@
-# CRITIQ
+# Critique (CRITIQ)
 
 A skill that turns Claude, Codex or another AI agent into a peer reviewer and research-paper architect.
 
-You download this folder, point your agent at it, and hand it a manuscript or an idea. CRITIQ reviews papers the way a careful referee does (structure, methods, statistics, results against discussion, writing, ethics), gives a verdict with ranked fixes, and builds papers from a first hunch to a submittable draft to the same standard. It explains its reasoning as it goes, so a person learning to write papers learns from it.
+You download this folder, point your agent at it, and hand it a manuscript or an idea. CRITIQ reviews papers the way a careful referee does (structure, methods, statistics and figures, results against discussion, writing, ethics), gives a verdict with ranked fixes, and builds papers from a first hunch to a submittable draft to the same standard. It explains its reasoning as it goes, so a person learning to write papers learns from it.
+
+For a visualization paper, give the reviewer the actual figures or prototype screenshots as well as the manuscript. It checks whether the text explains what the reader should see, what the plotted units mean, and what the image cannot establish.
 
 Three things it will not do: invent a citation, give a verdict without pointing at the evidence, or call a redesign a revision.
 
@@ -13,7 +15,7 @@ Pick the one that matches how you use AI.
 ### Claude Code
 
 ```bash
-git clone https://github.com/nikbearbrown/critiq ~/.claude/skills/critiq
+git clone https://github.com/nikbearbrown/critique ~/.claude/skills/critiq
 ```
 
 Start a new session and type `/critiq help`. To review a paper:
