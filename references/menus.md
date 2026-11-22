@@ -19,6 +19,7 @@ DRAFTING
 /draft     — Write a section or full manuscript
 /lit       — Synthesized literature review
 /abstract  — Write or rewrite the abstract
+/prepare   — Turn project artifacts into an evidence inventory and methods outline
 
 REVIEW
 /review    — Full peer review across all sections
@@ -27,6 +28,9 @@ REVIEW
 /structure — Structural and logic diagnosis only
 /writing   — Clarity, jargon, and claim calibration only
 /ethics    — Ethical and bias screening only
+/evidence  — Check claims and citations against sources
+/figures   — Audit figures or plan them from evidence
+/reproduce — Trace results to inputs and report what was verified
 
 REFINEMENT
 /respond   — Draft point-by-point response to reviewer comments
@@ -66,6 +70,10 @@ To review: paste your manuscript. To build one: describe your idea or type /idea
 | /structure  | Structural and logic diagnosis only                    | Full manuscript or sections        | Yes    |
 | /writing    | Clarity, jargon, and claim calibration only            | Any section                        | Yes    |
 | /ethics     | Ethical and bias screening only                        | Full manuscript                    | Yes    |
+| /prepare | Evidence inventory, gaps, and methods outline | Project notes or artifacts | Yes |
+| /evidence | Claim and citation audit | Draft and source material | Yes |
+| /figures | Figure audit or plan | Draft, figures or data | Yes |
+| /reproduce | Result-to-input audit | Methods, results and accessible artifacts | Yes |
 | /respond    | Draft point-by-point response to reviewer comments     | Reviewer comments + manuscript     | Yes    |
 | /revise     | Targeted section revision                              | Section + reviewer feedback        | Yes    |
 | /compare    | Original vs. revised on same input                     | Both versions                      | No     |

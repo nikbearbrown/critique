@@ -4,6 +4,8 @@
 
 Contents: [/idea](#idea) · [/outline](#outline) · [/draft](#draft-section-or-draft-full) · [/lit](#lit) · [/abstract](#abstract)
 
+For projects with artifacts and partial results, run [`/prepare`](paper-workbench.md#prepare-turn-project-material-into-a-draftable-plan) to inventory evidence and gaps before producing a full draft.
+
 ## /idea
 
 **Purpose:** concept → structured research proposal.

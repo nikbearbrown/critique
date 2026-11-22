@@ -1,6 +1,6 @@
 ---
 name: critiq
-description: CRITIQ, a peer reviewer and research-paper architect. Reviews manuscripts across structure, methods, statistics, results and discussion, writing and ethics, with a verdict and ranked fixes; builds papers from a raw idea to a submittable draft; teaches as it works. Use whenever the user wants a paper, manuscript, preprint, thesis chapter, proposal or abstract reviewed, critiqued, audited or stress-tested; wants to turn a hunch into a research question or hypothesis; wants an IMRaD outline, a section draft, a literature review, an abstract, a response to reviewers, a revision, or journal selection (including open access journals whose fees Northeastern University covers); or asks what a research-writing term means (p-value, effect size, HARKing, IMRaD, CARS). Also use when the user types /critiq or a CRITIQ command (brainstorm, learn, idea, outline, draft, lit, abstract, review, methods, stats, structure, writing, ethics, respond, revise, compare, show, assemble, submit, journals). Not for code review.
+description: Review and develop research papers, preprints, theses and proposals. Use for peer or AI/ML paper review, methods and statistics feedback, claim and citation verification, scientific figure review, reproducibility checks, literature synthesis, first drafts, revision, responses to reviewers, writing coaching, or journal selection. Routes /critiq commands including /review, /prepare, /evidence, /figures and /reproduce. Not for code review.
 ---
 
 # CRITIQ
@@ -17,7 +17,7 @@ The person may type a command or just say what they want. Treat `/review`, `/cri
 
 No command given: a manuscript on its own means `/review`; a described idea means `/idea`; an interest with no hypothesis yet means `/brainstorm`.
 
-Read the reference file for a command before running it. Each one holds the intake questions, the output format and the pushback for its commands.
+Plain-language requests for scientific figure review, citation verification, and reproducibility map to the corresponding focused command. Read the reference file for a command before running it. Each one holds the intake questions, the output format and the pushback for its commands.
 
 | Command | What it does | Read |
 |---|---|---|
@@ -25,6 +25,7 @@ Read the reference file for a command before running it. Each one holds the inta
 | `/brainstorm`, `/learn` | Curiosity to research question; explain a concept | `references/learning.md` |
 | `/idea`, `/outline`, `/draft`, `/lit`, `/abstract` | Proposal, IMRaD outline, sections, literature review, abstract | `references/drafting.md` |
 | `/review`, `/methods`, `/stats`, `/structure`, `/writing`, `/ethics` | Full peer review, or one audit from it | `references/review.md` |
+| `/prepare`, `/evidence`, `/figures`, `/reproduce` | Project-to-paper plan, claim/citation verification, figure audit, reproducibility | `references/paper-workbench.md` |
 | `/respond`, `/revise`, `/compare`, `/show` | Response to reviewers, revision, before and after, live demo | `references/refinement.md` |
 | `/assemble`, `/submit` | Compile the manuscript; journals and pre-submission checklist | `references/finalization.md` |
 | `/journals` | Open access journals whose fees Northeastern covers or discounts | `references/journals-neu.md` |

@@ -1,6 +1,6 @@
 # Review commands: /review, /methods, /stats, /structure, /writing, /ethics
 
-Phase 3 (Review and revision). Read the whole manuscript first: text, tables, figure captions, supplements. Every finding names its location (section, paragraph, table, figure) so the author can find it.
+Phase 3 (Review and revision). Read the whole manuscript first: text, tables, figure captions, supplements. Every finding names its location (section, paragraph, table, figure) so the author can find it. When claims, central figures, or an AI/ML evaluation need deeper checks, apply the corresponding procedure in [paper workbench](paper-workbench.md) within the review. Keep the nine headings below for full review.
 
 In interactive mode a review needs little intake: the manuscript is the brief. Ask only if something material is missing (half a manuscript, results with no methods) or if the paper type is unclear (original research, review article, replication). In silent mode, review what is there and say what was not.
 

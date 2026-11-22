@@ -1,6 +1,6 @@
 # Finalization commands: /assemble and /submit
 
-For `/journals`, read `references/journals-neu.md`.
+For `/journals`, read `references/journals-neu.md`. For a collaborator-facing rough draft, see the [paper workbench](paper-workbench.md#contribution-ready-rough-draft).
 
 ## /assemble
 
@@ -44,14 +44,14 @@ Assemble from what exists. Missing sections are named at the top, not written.
 
 ### Output
 
-Three journal recommendations, each with its rationale and with context on impact factor and rejection rate. Those figures are from memory unless you looked them up in this session: label them approximate and point to the journal's own page.
+Three journal recommendations, each with its rationale and with context on impact factor and rejection rate. Verify any current metric or fee claim against an authoritative source, or omit the number. This command prepares a checklist and does not submit a manuscript.
 
 ### Pre-submission checklist
 
 - [ ] Abstract matches the manuscript
 - [ ] Every figure and table is cited in the text
-- [ ] Statistical reporting complete: effect sizes, confidence intervals, exact p-values
-- [ ] IRB (or IACUC) approval stated
+- [ ] Statistical reporting appropriate to the design; denominators and uncertainty stated where applicable
+- [ ] Applicable ethics approval, exemption, or restrictions addressed
 - [ ] Conflicts of interest and funding disclosed
 - [ ] References formatted to the journal's style
 - [ ] Word count within limits

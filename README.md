@@ -40,7 +40,7 @@ Open this folder in the agent. `AGENTS.md` tells it to read `SKILL.md`.
 
 ### Any chat model, no install
 
-Paste [prompt/critiq-system-prompt.md](prompt/critiq-system-prompt.md) into a Claude Project's instructions, a custom GPT, or the system prompt of any model. This is the original CRITIQ prompt in one file.
+Paste [prompt/critiq-system-prompt.md](prompt/critiq-system-prompt.md) into a Claude Project's instructions, a custom GPT, or the system prompt of any model. This is the original CRITIQ prompt in one file. For the newer focused tools use the packaged skill, or provide the [workbench](references/paper-workbench.md) alongside it.
 
 ## Commands
 
@@ -66,6 +66,19 @@ In Claude Code, put `/critiq` in front: `/critiq review`, `/critiq idea`. In a c
 | `/journals` | Open access journals whose fees Northeastern covers or discounts |
 | `/help` `/list` | The menu and the full table |
 
+### Focused paper tools
+
+| Command | Use it for |
+|---|---|
+| `/prepare` | Turn project notes into a paper outline, methods inventory, figure plan, and prioritized gaps. |
+| `/evidence` | Verify claims and citations against the source, with precise locators and repair criteria. |
+| `/figures` | Review the actual charts and screenshots or plan figures that the evidence can support. |
+| `/reproduce` | Trace a reported result to its inputs, including AI/ML benchmark and model-judge checks. |
+
+The [paper workbench](references/paper-workbench.md) covers early planning, review, and a contribution-ready rough draft with figures, methods and an unsent invitation. [Source notes](references/source-notes.md) explain what was adapted from the Bear Brown catalogs and why.
+
+See a [worked evidence and methods review](examples/workbench-review.md).
+
 ### Two modes
 
 By default CRITIQ is **interactive**: it asks before it writes, pushes back on a weak brief, and holds three gates (a testable hypothesis before the outline, locked results before the Discussion, no open CRITICAL finding before journal selection).
@@ -90,6 +103,7 @@ In a chat app, long output goes to the artifact window. In a coding agent, CRITI
 |---|---|
 | [SKILL.md](SKILL.md) | The entry skill: principles, rules, modes, pushback, gates, and which reference to read |
 | [references/review.md](references/review.md) | The eight-section review and the single audits |
+| [references/paper-workbench.md](references/paper-workbench.md) | `/prepare`, `/evidence`, `/figures`, `/reproduce` |
 | [references/drafting.md](references/drafting.md) | `/idea`, `/outline`, `/draft`, `/lit`, `/abstract` |
 | [references/learning.md](references/learning.md) | `/brainstorm`, `/learn` |
 | [references/refinement.md](references/refinement.md) | `/respond`, `/revise`, `/compare`, `/show` |
