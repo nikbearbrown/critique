@@ -1,6 +1,6 @@
 # Skill sources and selection
 
-The [Bear Brown curated skills](https://www.bearbrown.co/skills) and the [Claude skills directory](https://www.bearbrown.co/claude/skills) are separate catalogs. The second indexes other maintainers' work. An index entry or audit badge is not a recommendation to install or execute it.
+The [Bear Brown curated skills](https://www.bearbrown.co/skills) and the [Claude skills directory](https://www.bearbrown.co/claude/skills) are separate catalogs. The second indexes other maintainers' work. An index entry or audit badge is not a recommendation to install or execute it. For this pass we screened the 71-entry curated inventory and the names and descriptions of 1,524 imported skill listings; we then read the source of relevant candidates rather than treating listing descriptions as verified features.
 
 ## Bear Brown skills
 
@@ -14,6 +14,8 @@ Original guidance below was reviewed in [Bear Brown Tools](https://github.com/ni
 | [AI/ML Research Paper Analyzer](https://github.com/nikbearbrown/bear-brown-tools/blob/3a7271fa36955dd6f209fde9232a8992eaefc3a8/drafts/aiml-research-paper-analyzer/SKILL.md) | Compare studies by method, result and limitation and give section-level evidence. Avoid fixed topic lists, rigid response layers and claims of exhaustiveness. |
 | [Source to Chapter](https://www.bearbrown.co/skills/source-to-chapter) | Apply passage-level provenance to claims. Leave chapter templates and publication automation out. |
 | [Graduate Writing Clinic](https://www.bearbrown.co/skills/graduate-writing-clinic) | Useful as an optional coaching register. The existing learner mode already supplies it; no separate reviewer. |
+
+The curated rewrites [Research](https://github.com/nikbearbrown/skills/tree/main/skills/research), [Performing Code Review](https://github.com/nikbearbrown/skills/tree/main/skills/performing-code-review), and [Verification Before Completion](https://github.com/nikbearbrown/skills/tree/main/skills/verification-before-completion) add three procedural checks: trace the claim to the source that owns it, pin the reviewed revision, and record the check before saying the revision is fixed. Critique applies those checks to manuscripts and results, not to code review. The rewrite collection keeps [upstream notices](https://github.com/nikbearbrown/skills/blob/main/NOTICE.md); no rewrite text or scripts are vendored here.
 
 ## External references considered
 
